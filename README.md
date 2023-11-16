@@ -36,7 +36,7 @@ mvnw spring-boot:run
 ```
 
 Para consumir las api de creación de usuarios se requiere contar con un usuario ya autenticado. Para efectos de pruebas se realizó el registro de un usuario inicial, el que cuenta con un token jwt sin fecha de expiración para efectos de pruebas.
-La documentación de las api se puede visualizar en la ruta local http://localhost:8070/swagger-ui/ , de todos modos a continuación se deja el cUrl para consumir cada endpoint de la api:
+La documentación de las api se puede visualizar en la ruta local http://localhost:8080/swagger-ui/index.html , de todos modos a continuación se deja el cUrl para consumir cada endpoint de la api:
 
 * Para visualizar todos los usuarios:
 ```
